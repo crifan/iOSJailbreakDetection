@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983DD1F429150EF4003C4194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD1F329150EF4003C4194 /* AppDelegate.m */; };
+		983DD1F729150EF4003C4194 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD1F629150EF4003C4194 /* SceneDelegate.m */; };
+		983DD1FA29150EF4003C4194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD1F929150EF4003C4194 /* ViewController.m */; };
+		983DD1FD29150EF4003C4194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983DD1FB29150EF4003C4194 /* Main.storyboard */; };
+		983DD1FF29150EF8003C4194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983DD1FE29150EF8003C4194 /* Assets.xcassets */; };
+		983DD20229150EF8003C4194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983DD20029150EF8003C4194 /* LaunchScreen.storyboard */; };
+		983DD20529150EF8003C4194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD20429150EF8003C4194 /* main.m */; };
+		983DD20F29150EF8003C4194 /* iOSJailbreakDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD20E29150EF8003C4194 /* iOSJailbreakDetectionTests.m */; };
+		983DD21929150EF8003C4194 /* iOSJailbreakDetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD21829150EF8003C4194 /* iOSJailbreakDetectionUITests.m */; };
+		983DD21B29150EF8003C4194 /* iOSJailbreakDetectionUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD21A29150EF8003C4194 /* iOSJailbreakDetectionUITestsLaunchTests.m */; };
+		983DD22E29151139003C4194 /* JbDetectOpenFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD22A29151139003C4194 /* JbDetectOpenFileViewController.m */; };
+		983DD22F29151139003C4194 /* JbDetectOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD22C29151139003C4194 /* JbDetectOtherViewController.m */; };
+		983DD241291511B0003C4194 /* JailbreakiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD232291511AF003C4194 /* JailbreakiOS.m */; };
+		983DD242291511B0003C4194 /* CrifanLibiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD235291511AF003C4194 /* CrifanLibiOS.m */; };
+		983DD243291511B0003C4194 /* CrifanLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 983DD23A291511AF003C4194 /* CrifanLib.c */; };
+		983DD244291511B0003C4194 /* CrifanLibDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 983DD23B291511AF003C4194 /* CrifanLibDemo.c */; };
+		983DD245291511B0003C4194 /* JailbreakPathList.c in Sources */ = {isa = PBXBuildFile; fileRef = 983DD23C291511AF003C4194 /* JailbreakPathList.c */; };
+		983DD246291511B0003C4194 /* SFAntiPiracy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD23F291511AF003C4194 /* SFAntiPiracy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983DD20B29150EF8003C4194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983DD1E729150EF4003C4194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983DD1EE29150EF4003C4194;
+			remoteInfo = iOSJailbreakDetection;
+		};
+		983DD21529150EF8003C4194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983DD1E729150EF4003C4194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983DD1EE29150EF4003C4194;
+			remoteInfo = iOSJailbreakDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983DD1EF29150EF4003C4194 /* iOSJailbreakDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJailbreakDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983DD1F229150EF4003C4194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		983DD1F329150EF4003C4194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		983DD1F529150EF4003C4194 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		983DD1F629150EF4003C4194 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		983DD1F829150EF4003C4194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		983DD1F929150EF4003C4194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		983DD1FC29150EF4003C4194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		983DD1FE29150EF8003C4194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		983DD20129150EF8003C4194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		983DD20329150EF8003C4194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983DD20429150EF8003C4194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		983DD20A29150EF8003C4194 /* iOSJailbreakDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSJailbreakDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983DD20E29150EF8003C4194 /* iOSJailbreakDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSJailbreakDetectionTests.m; sourceTree = "<group>"; };
+		983DD21429150EF8003C4194 /* iOSJailbreakDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSJailbreakDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983DD21829150EF8003C4194 /* iOSJailbreakDetectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSJailbreakDetectionUITests.m; sourceTree = "<group>"; };
+		983DD21A29150EF8003C4194 /* iOSJailbreakDetectionUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSJailbreakDetectionUITestsLaunchTests.m; sourceTree = "<group>"; };
+		983DD22A29151139003C4194 /* JbDetectOpenFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JbDetectOpenFileViewController.m; sourceTree = "<group>"; };
+		983DD22B29151139003C4194 /* JbDetectOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JbDetectOtherViewController.h; sourceTree = "<group>"; };
+		983DD22C29151139003C4194 /* JbDetectOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JbDetectOtherViewController.m; sourceTree = "<group>"; };
+		983DD22D29151139003C4194 /* JbDetectOpenFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JbDetectOpenFileViewController.h; sourceTree = "<group>"; };
+		983DD232291511AF003C4194 /* JailbreakiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JailbreakiOS.m; sourceTree = "<group>"; };
+		983DD233291511AF003C4194 /* CrifanLibiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrifanLibiOS.h; sourceTree = "<group>"; };
+		983DD234291511AF003C4194 /* JailbreakiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JailbreakiOS.h; sourceTree = "<group>"; };
+		983DD235291511AF003C4194 /* CrifanLibiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrifanLibiOS.m; sourceTree = "<group>"; };
+		983DD237291511AF003C4194 /* CrifanLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrifanLib.h; sourceTree = "<group>"; };
+		983DD238291511AF003C4194 /* JailbreakPathList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JailbreakPathList.h; sourceTree = "<group>"; };
+		983DD239291511AF003C4194 /* CrifanLibDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrifanLibDemo.h; sourceTree = "<group>"; };
+		983DD23A291511AF003C4194 /* CrifanLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CrifanLib.c; sourceTree = "<group>"; };
+		983DD23B291511AF003C4194 /* CrifanLibDemo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CrifanLibDemo.c; sourceTree = "<group>"; };
+		983DD23C291511AF003C4194 /* JailbreakPathList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JailbreakPathList.c; sourceTree = "<group>"; };
+		983DD23F291511AF003C4194 /* SFAntiPiracy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAntiPiracy.m; sourceTree = "<group>"; };
+		983DD240291511AF003C4194 /* SFAntiPiracy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAntiPiracy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983DD1EC29150EF4003C4194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983DD20729150EF8003C4194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983DD21129150EF8003C4194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983DD1E629150EF4003C4194 = {
+			isa = PBXGroup;
+			children = (
+				983DD1F129150EF4003C4194 /* iOSJailbreakDetection */,
+				983DD20D29150EF8003C4194 /* iOSJailbreakDetectionTests */,
+				983DD21729150EF8003C4194 /* iOSJailbreakDetectionUITests */,
+				983DD1F029150EF4003C4194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983DD1F029150EF4003C4194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983DD1EF29150EF4003C4194 /* iOSJailbreakDetection.app */,
+				983DD20A29150EF8003C4194 /* iOSJailbreakDetectionTests.xctest */,
+				983DD21429150EF8003C4194 /* iOSJailbreakDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983DD1F129150EF4003C4194 /* iOSJailbreakDetection */ = {
+			isa = PBXGroup;
+			children = (
+				983DD23D291511AF003C4194 /* otherProject */,
+				983DD230291511AF003C4194 /* libs */,
+				983DD1F229150EF4003C4194 /* AppDelegate.h */,
+				983DD1F329150EF4003C4194 /* AppDelegate.m */,
+				983DD1F529150EF4003C4194 /* SceneDelegate.h */,
+				983DD1F629150EF4003C4194 /* SceneDelegate.m */,
+				983DD1FE29150EF8003C4194 /* Assets.xcassets */,
+				983DD20329150EF8003C4194 /* Info.plist */,
+				983DD20429150EF8003C4194 /* main.m */,
+				983DD1F829150EF4003C4194 /* ViewController.h */,
+				983DD1F929150EF4003C4194 /* ViewController.m */,
+				983DD22D29151139003C4194 /* JbDetectOpenFileViewController.h */,
+				983DD22A29151139003C4194 /* JbDetectOpenFileViewController.m */,
+				983DD22B29151139003C4194 /* JbDetectOtherViewController.h */,
+				983DD22C29151139003C4194 /* JbDetectOtherViewController.m */,
+				983DD20029150EF8003C4194 /* LaunchScreen.storyboard */,
+				983DD1FB29150EF4003C4194 /* Main.storyboard */,
+			);
+			path = iOSJailbreakDetection;
+			sourceTree = "<group>";
+		};
+		983DD20D29150EF8003C4194 /* iOSJailbreakDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				983DD20E29150EF8003C4194 /* iOSJailbreakDetectionTests.m */,
+			);
+			path = iOSJailbreakDetectionTests;
+			sourceTree = "<group>";
+		};
+		983DD21729150EF8003C4194 /* iOSJailbreakDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				983DD21829150EF8003C4194 /* iOSJailbreakDetectionUITests.m */,
+				983DD21A29150EF8003C4194 /* iOSJailbreakDetectionUITestsLaunchTests.m */,
+			);
+			path = iOSJailbreakDetectionUITests;
+			sourceTree = "<group>";
+		};
+		983DD230291511AF003C4194 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				983DD231291511AF003C4194 /* iOS */,
+				983DD236291511AF003C4194 /* c */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		983DD231291511AF003C4194 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				983DD232291511AF003C4194 /* JailbreakiOS.m */,
+				983DD233291511AF003C4194 /* CrifanLibiOS.h */,
+				983DD234291511AF003C4194 /* JailbreakiOS.h */,
+				983DD235291511AF003C4194 /* CrifanLibiOS.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		983DD236291511AF003C4194 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				983DD237291511AF003C4194 /* CrifanLib.h */,
+				983DD238291511AF003C4194 /* JailbreakPathList.h */,
+				983DD239291511AF003C4194 /* CrifanLibDemo.h */,
+				983DD23A291511AF003C4194 /* CrifanLib.c */,
+				983DD23B291511AF003C4194 /* CrifanLibDemo.c */,
+				983DD23C291511AF003C4194 /* JailbreakPathList.c */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		983DD23D291511AF003C4194 /* otherProject */ = {
+			isa = PBXGroup;
+			children = (
+				983DD23E291511AF003C4194 /* SFAntiPiracy */,
+			);
+			path = otherProject;
+			sourceTree = "<group>";
+		};
+		983DD23E291511AF003C4194 /* SFAntiPiracy */ = {
+			isa = PBXGroup;
+			children = (
+				983DD23F291511AF003C4194 /* SFAntiPiracy.m */,
+				983DD240291511AF003C4194 /* SFAntiPiracy.h */,
+			);
+			path = SFAntiPiracy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983DD1EE29150EF4003C4194 /* iOSJailbreakDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983DD21E29150EF8003C4194 /* Build configuration list for PBXNativeTarget "iOSJailbreakDetection" */;
+			buildPhases = (
+				983DD1EB29150EF4003C4194 /* Sources */,
+				983DD1EC29150EF4003C4194 /* Frameworks */,
+				983DD1ED29150EF4003C4194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSJailbreakDetection;
+			productName = iOSJailbreakDetection;
+			productReference = 983DD1EF29150EF4003C4194 /* iOSJailbreakDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983DD20929150EF8003C4194 /* iOSJailbreakDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983DD22129150EF8003C4194 /* Build configuration list for PBXNativeTarget "iOSJailbreakDetectionTests" */;
+			buildPhases = (
+				983DD20629150EF8003C4194 /* Sources */,
+				983DD20729150EF8003C4194 /* Frameworks */,
+				983DD20829150EF8003C4194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983DD20C29150EF8003C4194 /* PBXTargetDependency */,
+			);
+			name = iOSJailbreakDetectionTests;
+			productName = iOSJailbreakDetectionTests;
+			productReference = 983DD20A29150EF8003C4194 /* iOSJailbreakDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		983DD21329150EF8003C4194 /* iOSJailbreakDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983DD22429150EF8003C4194 /* Build configuration list for PBXNativeTarget "iOSJailbreakDetectionUITests" */;
+			buildPhases = (
+				983DD21029150EF8003C4194 /* Sources */,
+				983DD21129150EF8003C4194 /* Frameworks */,
+				983DD21229150EF8003C4194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983DD21629150EF8003C4194 /* PBXTargetDependency */,
+			);
+			name = iOSJailbreakDetectionUITests;
+			productName = iOSJailbreakDetectionUITests;
+			productReference = 983DD21429150EF8003C4194 /* iOSJailbreakDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983DD1E729150EF4003C4194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					983DD1EE29150EF4003C4194 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					983DD20929150EF8003C4194 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 983DD1EE29150EF4003C4194;
+					};
+					983DD21329150EF8003C4194 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 983DD1EE29150EF4003C4194;
+					};
+				};
+			};
+			buildConfigurationList = 983DD1EA29150EF4003C4194 /* Build configuration list for PBXProject "iOSJailbreakDetection" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983DD1E629150EF4003C4194;
+			productRefGroup = 983DD1F029150EF4003C4194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983DD1EE29150EF4003C4194 /* iOSJailbreakDetection */,
+				983DD20929150EF8003C4194 /* iOSJailbreakDetectionTests */,
+				983DD21329150EF8003C4194 /* iOSJailbreakDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983DD1ED29150EF4003C4194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983DD20229150EF8003C4194 /* LaunchScreen.storyboard in Resources */,
+				983DD1FF29150EF8003C4194 /* Assets.xcassets in Resources */,
+				983DD1FD29150EF4003C4194 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983DD20829150EF8003C4194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983DD21229150EF8003C4194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983DD1EB29150EF4003C4194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983DD22F29151139003C4194 /* JbDetectOtherViewController.m in Sources */,
+				983DD244291511B0003C4194 /* CrifanLibDemo.c in Sources */,
+				983DD246291511B0003C4194 /* SFAntiPiracy.m in Sources */,
+				983DD1FA29150EF4003C4194 /* ViewController.m in Sources */,
+				983DD22E29151139003C4194 /* JbDetectOpenFileViewController.m in Sources */,
+				983DD245291511B0003C4194 /* JailbreakPathList.c in Sources */,
+				983DD241291511B0003C4194 /* JailbreakiOS.m in Sources */,
+				983DD1F429150EF4003C4194 /* AppDelegate.m in Sources */,
+				983DD243291511B0003C4194 /* CrifanLib.c in Sources */,
+				983DD20529150EF8003C4194 /* main.m in Sources */,
+				983DD242291511B0003C4194 /* CrifanLibiOS.m in Sources */,
+				983DD1F729150EF4003C4194 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983DD20629150EF8003C4194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983DD20F29150EF8003C4194 /* iOSJailbreakDetectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983DD21029150EF8003C4194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983DD21B29150EF8003C4194 /* iOSJailbreakDetectionUITestsLaunchTests.m in Sources */,
+				983DD21929150EF8003C4194 /* iOSJailbreakDetectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983DD20C29150EF8003C4194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983DD1EE29150EF4003C4194 /* iOSJailbreakDetection */;
+			targetProxy = 983DD20B29150EF8003C4194 /* PBXContainerItemProxy */;
+		};
+		983DD21629150EF8003C4194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983DD1EE29150EF4003C4194 /* iOSJailbreakDetection */;
+			targetProxy = 983DD21529150EF8003C4194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		983DD1FB29150EF4003C4194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983DD1FC29150EF4003C4194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		983DD20029150EF8003C4194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983DD20129150EF8003C4194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983DD21C29150EF8003C4194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		983DD21D29150EF8003C4194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		983DD21F29150EF8003C4194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WRHBBSBW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSJailbreakDetection/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crifan.iOSJailbreakDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		983DD22029150EF8003C4194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WRHBBSBW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSJailbreakDetection/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crifan.iOSJailbreakDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		983DD22229150EF8003C4194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WRHBBSBW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crifan.iOSJailbreakDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSJailbreakDetection.app/iOSJailbreakDetection";
+			};
+			name = Debug;
+		};
+		983DD22329150EF8003C4194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WRHBBSBW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crifan.iOSJailbreakDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSJailbreakDetection.app/iOSJailbreakDetection";
+			};
+			name = Release;
+		};
+		983DD22529150EF8003C4194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WRHBBSBW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crifan.iOSJailbreakDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSJailbreakDetection;
+			};
+			name = Debug;
+		};
+		983DD22629150EF8003C4194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WRHBBSBW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crifan.iOSJailbreakDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSJailbreakDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983DD1EA29150EF4003C4194 /* Build configuration list for PBXProject "iOSJailbreakDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983DD21C29150EF8003C4194 /* Debug */,
+				983DD21D29150EF8003C4194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983DD21E29150EF8003C4194 /* Build configuration list for PBXNativeTarget "iOSJailbreakDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983DD21F29150EF8003C4194 /* Debug */,
+				983DD22029150EF8003C4194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983DD22129150EF8003C4194 /* Build configuration list for PBXNativeTarget "iOSJailbreakDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983DD22229150EF8003C4194 /* Debug */,
+				983DD22329150EF8003C4194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983DD22429150EF8003C4194 /* Build configuration list for PBXNativeTarget "iOSJailbreakDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983DD22529150EF8003C4194 /* Debug */,
+				983DD22629150EF8003C4194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983DD1E729150EF4003C4194 /* Project object */;
+}
