@@ -1,5 +1,7 @@
 # iOSJailbreakDetection
 
+最后更新：`20221104`
+
 iOS的ObjC的app，实现越狱检测功能
 
 ## 功能介绍
@@ -13,7 +15,9 @@ iOS的ObjC的app，实现越狱检测功能
 
 此处有一个越狱手机，iPhone7，下面是检测结果：
 
-### 文件类的：JbDetectOpenFileViewController
+### 没开启反越狱
+
+#### 文件类的：JbDetectOpenFileViewController
 
 初始化默认显示：
 
@@ -32,7 +36,7 @@ iOS的ObjC的app，实现越狱检测功能
 * `opendir`: `0`
   * ![file_result_0_opendir](assets/file_result_0_opendir.png)
 
-### 其他的：JbDetectOtherViewController
+#### 其他的：JbDetectOtherViewController
 
 初始化默认显示：
 
@@ -52,3 +56,9 @@ iOS的ObjC的app，实现越狱检测功能
   * ![other_result_lsapplication](assets/other_result_lsapplication.png)
 * `objc_copyImageNames`：是越狱手机，1个
   * ![other_result_objcCopy_1](assets/other_result_objcCopy_1.png)
+
+### 开启反越狱
+
+开启反越狱后的测试效果，详见：
+
+[iOSBypassJailbreak = iOS反越狱检测](https://github.com/crifan/iOSBypassJailbreak)
