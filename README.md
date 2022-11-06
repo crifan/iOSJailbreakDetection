@@ -1,8 +1,14 @@
 # iOSJailbreakDetection
 
-最后更新：`20221104`
+最后更新：`20221106`
 
 iOS的ObjC的app，实现越狱检测功能
+
+## 项目源码
+
+https://github.com/crifan/iOSJailbreakDetection
+
+`git clone https://github.com/crifan/iOSJailbreakDetection.git`
 
 ## 功能介绍
 
